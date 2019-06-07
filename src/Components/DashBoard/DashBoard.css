@@ -1,0 +1,16 @@
+.blue{
+    background-color: blue;
+
+}
+.red{
+    background-color: red;
+}
+p{
+    text-align: justify
+}
+.border{
+    border: 1px solid #e2e2e2
+}
+.padding{
+    padding: 10px
+}

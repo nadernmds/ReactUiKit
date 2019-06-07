@@ -1,0 +1,31 @@
+.uk-navbar-dropdown{
+    padding: 12px !important;
+}
+.avatar{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%
+}
+
+.logo{
+    width: 144px;
+}
+.chat-bubble {
+	position: relative;
+	background: #00aabb;
+	border-radius: .4em;
+}
+
+.chat-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: #00aabb;
+	border-left: 0;
+	margin-top: -20px;
+	margin-left: -20px;
+}

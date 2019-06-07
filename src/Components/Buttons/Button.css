@@ -1,0 +1,12 @@
+@keyframes rotateButton{
+   from{ transform:rotate(0deg) } 
+   to{transform:rotate(1deg)}
+}
+
+.btn:focus{
+    animation-duration: 0.3s;
+    animation-name: rotateButton;
+}
+.uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle{
+    min-height: 50px
+}
