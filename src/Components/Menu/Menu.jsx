@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Icon from "../Icon/Icon";
+import { Link } from "react-router-dom";
 class Menu extends Component {
   state = {};
   render() {
@@ -18,7 +19,9 @@ class Menu extends Component {
               >
                 <ul className="uk-nav uk-navbar-dropdown-nav">
                   <li>
-                    <a href="#">ایجاد پرونده خصوصی جدید</a>
+                    <Link to="/new" href='/new'>
+                      ایجاد پرونده خصوصی جدید
+                    </Link>
                   </li>
                   <li>
                     <a href="#">ایجاد پرونده مدعی العموم</a>
@@ -37,7 +40,7 @@ class Menu extends Component {
               >
                 <ul className="uk-nav uk-navbar-dropdown-nav">
                   <li>
-                    <a href="#">داشبورد</a>
+                    <Link to='/dashboard' href='/dashboard'>داشبورد</Link>
                   </li>
                   <li>
                     <a href="#">فعالیت های من</a>

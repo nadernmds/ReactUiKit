@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import CircleDiv from "../View/CircleDiv";
-import Offer from "../View/Offer";
+import CircleDiv from "../Components/View/CircleDiv";
+import Offer from "../Components/View/Offer";
 class CreateProject extends Component {
   state = {};
   onChangeMin = e => {
